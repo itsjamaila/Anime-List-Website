@@ -1,0 +1,210 @@
+body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0b0c2a;
+    color: white;
+    overflow-x: hidden;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: red;
+}
+/* homepage */
+.container-fluid {
+    padding: 0px;
+}
+
+/* main */
+
+.row, .winterimg {
+    border-radius: 5px;
+}
+
+.col-lg-2 {
+    position: relative;
+}
+
+.col-lg-2 .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sidebar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidebar {
+    border-radius: 5px;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.img2 {
+    margin-right: 10%;
+    float: left;
+    height: 11rem;
+}
+
+/* overlay */
+img.mb {
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 15rem;
+}
+
+.images {
+    height: 15rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.685);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 90%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 12px;
+    padding: 18px;
+    text-align: center;
+    z-index: 1;
+}
+
+.col-lg-2:hover .overlay {
+    opacity: 1;
+}
+.modal-body>h6 {
+    color: white;
+}
+.modal-header {
+    border-bottom: none;
+}
+body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #0b0c2a;
+    color: white;
+    overflow-x: hidden;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: red;
+}
+/* homepage */
+.container-fluid {
+    padding: 0px;
+}
+
+/* main */
+
+.row, .winterimg {
+    border-radius: 5px;
+}
+
+.col-lg-2 {
+    position: relative;
+}
+
+.col-lg-2 .btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sidebar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sidebar {
+    border-radius: 5px;
+    width: 45%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.img2 {
+    margin-right: 10%;
+    float: left;
+    height: 11rem;
+}
+
+/* overlay */
+img.mb {
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 15rem;
+}
+
+.images {
+    height: 15rem;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.685);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 90%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 12px;
+    padding: 18px;
+    text-align: center;
+    z-index: 1;
+}
+
+.col-lg-2:hover .overlay {
+    opacity: 1;
+}
+.modal-body>h6 {
+    color: white;
+}
+.modal-header {
+    border-bottom: none;
+}
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bars {
+    height: 5px;
+    background: red;
+    width: 0%;
+  }
